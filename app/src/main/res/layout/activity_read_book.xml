@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF688"
+    tools:context=".ReadBook">
+
+    <TextView
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="Tenggelamnya Kapal Van Der Wijck"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:paddingTop="20dp"
+        android:text="MATAHARI telah hampir masuk ke dalam peraduannya.
+Dengan amat pelahan, menurutkan perintah dari alam gaib, ia berangsur turun,
+turun ke dasar lautan yang tidak kelihatan ranah tanah tepinya. Cahaya merah
+telah mulai terbentang di ufuk Barat, dan bayangannya tampak mengindahkan wajah
+lautan yang tenang tak berombak. Di sana-sini kelihatan layar perahu-perahu telah
+berkembang, putih dan sabar. Ke pantai kedengaran suara nyanyian Iloho gading atau
+Sio sayang, yang dinyanyikan oleh anak-anak perahu orang Mandar itu, ditingkah oleh
+ suara geseran rebab dan kecapi. Nun, agak di tengah, di tepi pagaran anggar kelihatan
+  puncak dari sebuah kapal yang telah berpuluh tahun ditenggelamkan di sana." />
+
+</RelativeLayout>

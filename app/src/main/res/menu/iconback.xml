@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/back"
+        android:enabled="true"
+        android:icon="@drawable/back"
+        android:title="Item"
+        android:visible="true"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/home"
+        android:enabled="true"
+        android:icon="@drawable/home"
+        android:title="Item"
+        android:visible="true"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/exit"
+        android:enabled="true"
+        android:icon="@drawable/exit"
+        android:title="Item"
+        android:visible="true"
+        app:showAsAction="always"
+       />
+</menu>

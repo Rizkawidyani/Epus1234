@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yenny.epus">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Epus"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".DescriptionBookJurnal3"></activity>
+        <activity android:name=".DescriptionBookJurnal2" />
+        <activity android:name=".DescriptionBookJurnal1" />
+        <activity android:name=".DescriptionBookOtot" />
+        <activity android:name=".DescriptionBookMediaPembAktif" />
+        <activity android:name=".DescriptionBookKhasiatTomat" />
+        <activity android:name=".DescriptionBookKetatanegaraan" />
+        <activity android:name=".DescriptionBookEYD" />
+        <activity android:name=".DescriptionBookBintang" />
+        <activity android:name=".DescriptionBookHope" />
+        <activity android:name=".DescriptionBookMariposa" />
+        <activity android:name=".DescriptionBookMilan" />
+        <activity android:name=".DescriptionBookAlice" />
+        <activity android:name=".ListJurnal" />
+        <activity android:name=".ListNonfiksiBook" />
+        <activity
+            android:name=".Profile"
+            android:label="" />
+        <activity
+            android:name=".ReadBook"
+            android:label="" />
+        <activity
+            android:name=".DescriptionBook"
+            android:label="" />
+        <activity android:name=".Book" />
+        <activity android:name=".ListFiksiBook" />
+        <activity
+            android:name=".Signup"
+            android:label="" />
+        <activity
+            android:name=".Login"
+            android:label="" />
+        <activity
+            android:name=".GenreBook"
+            android:label="" />
+        <activity
+            android:name=".History"
+            android:label="" />
+        <activity
+            android:name=".About"
+            android:label="" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="" />
+    </application>
+
+</manifest>

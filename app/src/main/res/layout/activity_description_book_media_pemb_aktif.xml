@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF688"
+    tools:context=".DescriptionBookAlice">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Judul Buku :"
+        android:padding="16dp" />
+
+    <TextView
+        android:id="@+id/tenggelam"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/name"
+        android:hint="Media Pembelajaran Aktif"
+        android:padding="16dp" />
+
+    <TextView
+        android:id="@+id/pengarang"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="16dp"
+        android:hint="Pengarang :"
+        android:padding="16dp" />
+
+    <TextView
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tenggelam"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="-14dp"
+        android:layout_toRightOf="@+id/pengarang"
+        android:hint="Prof. Dr. H. Said Hamid Hasan"
+        android:padding="16dp" />
+
+    <TextView
+        android:id="@+id/penerbit"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pengarang"
+        android:hint="Penerbit :"
+        android:padding="16dp" />
+
+    <TextView
+        android:id="@+id/terbit"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/penerbit"
+        android:layout_marginTop="110dp"
+        android:hint="Erlangga"
+        android:padding="16dp" />
+
+    <TextView
+        android:id="@+id/tahun_terbit"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/penerbit"
+        android:hint="Tahun Terbit :"
+        android:padding="16dp" />
+
+    <TextView
+        android:id="@+id/tahun"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/tahun_terbit"
+        android:layout_below="@+id/terbit"
+        android:hint="2017"
+        android:padding="16dp" />
+
+    <TextView
+        android:id="@+id/sinopsis"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tahun_terbit"
+        android:hint="Sinopsis :"
+        android:padding="16dp" />
+
+
+    <TextView
+        android:id="@+id/sin"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/kota"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginTop="210dp"
+        android:layout_toRightOf="@+id/sinopsis"
+        android:hint="Buku ini menggambarkan kepedulian dan pemahaman penulisnya yang sangat mendalam."
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/baca_buku"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Read Book"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_marginTop="560dp" />
+
+</RelativeLayout>

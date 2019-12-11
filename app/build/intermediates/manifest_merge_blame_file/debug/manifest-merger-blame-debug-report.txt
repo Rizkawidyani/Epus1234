@@ -1,0 +1,210 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.yenny.epus"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:7:5-65:19
+14        android:allowBackup="true"
+14-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.0.1] C:\Users\Personal\.gradle\caches\transforms-2\files-2.1\241b89e013db22b59a4d22b3f2fa0913\core-1.0.1\AndroidManifest.xml:22:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="Epus"
+18-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:10:9-29
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:12:9-35
+21        android:theme="@style/AppTheme" >
+21-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:13:9-40
+22        <activity android:name="com.yenny.epus.DescriptionBookJurnal3" />
+22-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:14:9-69
+22-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:14:19-57
+23        <activity android:name="com.yenny.epus.DescriptionBookJurnal2" />
+23-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:15:9-60
+23-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:15:19-57
+24        <activity android:name="com.yenny.epus.DescriptionBookJurnal1" />
+24-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:16:9-60
+24-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:16:19-57
+25        <activity android:name="com.yenny.epus.DescriptionBookOtot" />
+25-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:17:9-57
+25-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:17:19-54
+26        <activity android:name="com.yenny.epus.DescriptionBookMediaPembAktif" />
+26-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:18:9-67
+26-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:18:19-64
+27        <activity android:name="com.yenny.epus.DescriptionBookKhasiatTomat" />
+27-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:19:9-65
+27-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:19:19-62
+28        <activity android:name="com.yenny.epus.DescriptionBookKetatanegaraan" />
+28-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:20:9-67
+28-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:20:19-64
+29        <activity android:name="com.yenny.epus.DescriptionBookEYD" />
+29-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:21:9-56
+29-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:21:19-53
+30        <activity android:name="com.yenny.epus.DescriptionBookBintang" />
+30-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:22:9-60
+30-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:22:19-57
+31        <activity android:name="com.yenny.epus.DescriptionBookHope" />
+31-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:23:9-57
+31-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:23:19-54
+32        <activity android:name="com.yenny.epus.DescriptionBookMariposa" />
+32-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:24:9-61
+32-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:24:19-58
+33        <activity android:name="com.yenny.epus.DescriptionBookMilan" />
+33-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:25:9-58
+33-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:25:19-55
+34        <activity android:name="com.yenny.epus.DescriptionBookAlice" />
+34-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:26:9-58
+34-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:26:19-55
+35        <activity android:name="com.yenny.epus.ListJurnal" />
+35-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:27:9-48
+35-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:27:19-45
+36        <activity android:name="com.yenny.epus.ListNonfiksiBook" />
+36-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:28:9-54
+36-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:28:19-51
+37        <activity
+37-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:29:9-31:32
+38            android:name="com.yenny.epus.Profile"
+38-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:30:13-36
+39            android:label="" />
+39-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:31:13-29
+40        <activity
+40-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:32:9-34:32
+41            android:name="com.yenny.epus.ReadBook"
+41-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:33:13-37
+42            android:label="" />
+42-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:34:13-29
+43        <activity
+43-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:35:9-37:32
+44            android:name="com.yenny.epus.DescriptionBook"
+44-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:36:13-44
+45            android:label="" />
+45-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:37:13-29
+46        <activity android:name="com.yenny.epus.Book" />
+46-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:38:9-42
+46-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:38:19-39
+47        <activity android:name="com.yenny.epus.ListFiksiBook" />
+47-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:39:9-51
+47-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:39:19-48
+48        <activity
+48-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:40:9-42:32
+49            android:name="com.yenny.epus.Signup"
+49-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:41:13-35
+50            android:label="" />
+50-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:42:13-29
+51        <activity
+51-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:43:9-45:32
+52            android:name="com.yenny.epus.Login"
+52-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:44:13-34
+53            android:label="" />
+53-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:45:13-29
+54        <activity
+54-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:46:9-48:32
+55            android:name="com.yenny.epus.GenreBook"
+55-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:47:13-38
+56            android:label="" />
+56-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:48:13-29
+57        <activity
+57-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:49:9-51:32
+58            android:name="com.yenny.epus.History"
+58-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:50:13-36
+59            android:label="" />
+59-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:51:13-29
+60        <activity
+60-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:52:9-54:32
+61            android:name="com.yenny.epus.About"
+61-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:53:13-34
+62            android:label="" />
+62-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:54:13-29
+63        <activity android:name="com.yenny.epus.SplashActivity" >
+63-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:55:9-61:20
+63-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:55:19-49
+64            <intent-filter>
+64-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:56:13-60:29
+65                <action android:name="android.intent.action.MAIN" />
+65-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:57:17-69
+65-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:57:25-66
+66
+67                <category android:name="android.intent.category.LAUNCHER" />
+67-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:59:17-77
+67-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:59:27-74
+68            </intent-filter>
+69        </activity>
+70        <activity
+70-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:62:9-64:32
+71            android:name="com.yenny.epus.MainActivity"
+71-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:63:13-41
+72            android:label="" />
+72-->C:\Users\Personal\Documents\Epus\Epus\app\src\main\AndroidManifest.xml:64:13-29
+73        <activity
+73-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Personal\.gradle\caches\transforms-2\files-2.1\95d3a3ba67f8e2d9eafea23e417147a3\jetified-firebase-auth-16.0.5\AndroidManifest.xml:24:9-31:50
+74            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+74-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Personal\.gradle\caches\transforms-2\files-2.1\95d3a3ba67f8e2d9eafea23e417147a3\jetified-firebase-auth-16.0.5\AndroidManifest.xml:25:13-85
+75            android:excludeFromRecents="true"
+75-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Personal\.gradle\caches\transforms-2\files-2.1\95d3a3ba67f8e2d9eafea23e417147a3\jetified-firebase-auth-16.0.5\AndroidManifest.xml:26:13-46
+76            android:exported="true"
+76-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Personal\.gradle\caches\transforms-2\files-2.1\95d3a3ba67f8e2d9eafea23e417147a3\jetified-firebase-auth-16.0.5\AndroidManifest.xml:27:13-36
+77            android:launchMode="singleTask"
+77-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Personal\.gradle\caches\transforms-2\files-2.1\95d3a3ba67f8e2d9eafea23e417147a3\jetified-firebase-auth-16.0.5\AndroidManifest.xml:28:13-44
+78            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+78-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Personal\.gradle\caches\transforms-2\files-2.1\95d3a3ba67f8e2d9eafea23e417147a3\jetified-firebase-auth-16.0.5\AndroidManifest.xml:29:13-102
+79            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+79-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Personal\.gradle\caches\transforms-2\files-2.1\95d3a3ba67f8e2d9eafea23e417147a3\jetified-firebase-auth-16.0.5\AndroidManifest.xml:30:13-72
+80
+81        <service
+81-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Personal\.gradle\caches\transforms-2\files-2.1\95d3a3ba67f8e2d9eafea23e417147a3\jetified-firebase-auth-16.0.5\AndroidManifest.xml:33:9-39:19
+82            android:name="com.google.firebase.components.ComponentDiscoveryService"
+82-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Personal\.gradle\caches\transforms-2\files-2.1\95d3a3ba67f8e2d9eafea23e417147a3\jetified-firebase-auth-16.0.5\AndroidManifest.xml:34:13-84
+83            android:exported="false" >
+83-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Personal\.gradle\caches\transforms-2\files-2.1\95d3a3ba67f8e2d9eafea23e417147a3\jetified-firebase-auth-16.0.5\AndroidManifest.xml:35:13-37
+84            <meta-data
+84-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Personal\.gradle\caches\transforms-2\files-2.1\95d3a3ba67f8e2d9eafea23e417147a3\jetified-firebase-auth-16.0.5\AndroidManifest.xml:36:13-38:85
+85                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+85-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Personal\.gradle\caches\transforms-2\files-2.1\95d3a3ba67f8e2d9eafea23e417147a3\jetified-firebase-auth-16.0.5\AndroidManifest.xml:37:17-109
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\Personal\.gradle\caches\transforms-2\files-2.1\95d3a3ba67f8e2d9eafea23e417147a3\jetified-firebase-auth-16.0.5\AndroidManifest.xml:38:17-82
+87        </service>
+88
+89        <activity
+89-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Personal\.gradle\caches\transforms-2\files-2.1\fabee26dc883ff0c15589e35c1d84e5e\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+90            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+90-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Personal\.gradle\caches\transforms-2\files-2.1\fabee26dc883ff0c15589e35c1d84e5e\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+91            android:exported="false"
+91-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Personal\.gradle\caches\transforms-2\files-2.1\fabee26dc883ff0c15589e35c1d84e5e\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+92            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+92-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Personal\.gradle\caches\transforms-2\files-2.1\fabee26dc883ff0c15589e35c1d84e5e\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+93
+94        <provider
+94-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Personal\.gradle\caches\transforms-2\files-2.1\e193181fe9bfb4e9c047d0172592e78c\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+95            android:name="com.google.firebase.provider.FirebaseInitProvider"
+95-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Personal\.gradle\caches\transforms-2\files-2.1\e193181fe9bfb4e9c047d0172592e78c\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+96            android:authorities="com.yenny.epus.firebaseinitprovider"
+96-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Personal\.gradle\caches\transforms-2\files-2.1\e193181fe9bfb4e9c047d0172592e78c\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+97            android:exported="false"
+97-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Personal\.gradle\caches\transforms-2\files-2.1\e193181fe9bfb4e9c047d0172592e78c\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+98            android:initOrder="100" />
+98-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Personal\.gradle\caches\transforms-2\files-2.1\e193181fe9bfb4e9c047d0172592e78c\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+99
+100        <meta-data
+100-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\Personal\.gradle\caches\transforms-2\files-2.1\47b1e36d4641824348aad47383a8f40e\jetified-play-services-basement-16.1.0\AndroidManifest.xml:23:9-25:69
+101            android:name="com.google.android.gms.version"
+101-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\Personal\.gradle\caches\transforms-2\files-2.1\47b1e36d4641824348aad47383a8f40e\jetified-play-services-basement-16.1.0\AndroidManifest.xml:24:13-58
+102            android:value="@integer/google_play_services_version" />
+102-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\Personal\.gradle\caches\transforms-2\files-2.1\47b1e36d4641824348aad47383a8f40e\jetified-play-services-basement-16.1.0\AndroidManifest.xml:25:13-66
+103    </application>
+104
+105</manifest>
